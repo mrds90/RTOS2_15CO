@@ -13,6 +13,7 @@ El trabajo practico se publicaraá en la semana 2.
 
 Para formar los grupos, se deberá utilizar [este](https://forms.gle/4VeFoNuXjGsgPJFz6) formulario.
 
+[Lista de requerimientos.](https://docs.google.com/spreadsheets/d/1-VyaQY0eDLpg12Eqkxe7_bfCb77LKIbDfVTNDGFBpu0/edit?usp=sharing)
 ## Lecturas recomendadas
 
 - [Modularidad, abstracción y múltiples instancias en C para Embedded Software](https://embedded-exploited.blogspot.com/2014/04/generalizacion-encapsulamiento-abstraccion-modularidad-oop.html)
