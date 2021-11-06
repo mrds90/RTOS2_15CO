@@ -1,4 +1,4 @@
-# RTOS2_PRIVADO
+# RTOS2
 # [**Recorda completar la encuestra clase a clase**](https://forms.gle/RvphazRZdpaU6VWG8)
 
 Material didáctico para la asignatura Sistemas Operativos en Tiempo Real 2 de la Carrera de Especialización en Sistemas Embebidos.
