@@ -1,3 +1,6 @@
 [submodule "Entregas_RTOS_II_Individual"]
 	path = Entregas_RTOS_II_Individual
 	url = git@github.com:mrds90/Entregas_RTOS_II_Individual.git
+[submodule "Entregas_RTOS_II"]
+	path = Entregas_RTOS_II
+	url = git@github.com:mrds90/Entregas_RTOS_II.git
