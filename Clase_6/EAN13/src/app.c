@@ -53,11 +53,10 @@ void app_task_tx( void* pvParameters )
     {
         gpioToggle( LED3 );
 
-        if( xQueueReceive( response_queue, &mensaje_respuesta, 0 ) )  // portMAX_DELAY
+        if( xQueueReceive( response_queue, &mensaje_respuesta, portMAX_DELAY ) )
         {
             protocol_send( appinstance->protocol_hnd, mensaje_respuesta );
         }
-        vTaskDelay( 100/portTICK_RATE_MS );
     }
 }
 
