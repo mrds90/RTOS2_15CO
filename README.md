@@ -9,11 +9,39 @@ Los ejecicios son compatibles con el [framework firmware v3](https://github.com/
 
 ## Trabajo practico
 
-El trabajo practico se publicaraá en la semana 2.
+El trabajo practico se publicará en la semana 2.
 
 Para formar los grupos, se deberá utilizar [este](https://forms.gle/4VeFoNuXjGsgPJFz6) formulario.
 
 [Lista de requerimientos.](https://docs.google.com/spreadsheets/d/1-VyaQY0eDLpg12Eqkxe7_bfCb77LKIbDfVTNDGFBpu0/edit?usp=sharing)
+
+## Scripts
+
+## Script de loopback
+El test de loopback genera N mensajes aleatorios y los envia, validando luego lo recibido.
+La validación se realiza comparando y validando que lo enviado sea igual a lo recibido. 
+
+Sirve para probar el trabajo práctico antes de la implementación de C3. 
+
+* Configurar config.py con los parametros que se desee.
+* Ejecutar python3 test_random_loopback.py
+
+## Script random
+El test random genera una serie de mensajes aleatorios y los envia, validando luego lo recibido. 
+En este caso, se cierra el loop en la C3, por lo tanto se puede probar en las etapas en donde 3 ya se encuentra implemnetada y, postriormente, con el agregado de objectos activos. 
+
+* Configurar config.py con los parametros que se desee.
+* Ejecutar python3 test_random.py
+
+## Script test unitarios
+El test valida las reglas del protocolo, sin exigir la ejecucion en terminos temporales. 
+* Ejecutar python3 test_unitario.py
+
+# Colaboradores
+
+* Diego Essaya y Santiago Abbate (script random version inicial)
+* Lucas Orsi (script test unitarios version inicial)
+
 ## Lecturas recomendadas
 
 - [Modularidad, abstracción y múltiples instancias en C para Embedded Software](https://embedded-exploited.blogspot.com/2014/04/generalizacion-encapsulamiento-abstraccion-modularidad-oop.html)
